@@ -1,3 +1,11 @@
+/**
+* @version: 0.2
+* @author: Jayanth Ravindarn
+* @copyright: Copyright (c) 2024 Jayanth Ravindran. All rights reserved.
+* @license: Licensed under the MIT license. See http://www.opensource.org/licenses/mit-license.php
+* @website: https://github.com/jravz/dynamic_table
+*/
+// Following the UMD template https://github.com/umdjs/umd/blob/master/templates/returnExportsGlobal.js
 (function(root, factory) {
     if (typeof define === 'function' && define.amd) {
         define([], factory);
